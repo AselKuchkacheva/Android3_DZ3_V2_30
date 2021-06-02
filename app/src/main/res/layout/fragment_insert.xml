@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.insert.InsertFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/et_content"
+        android:hint="Content"
+        style="@style/style_insert_fragment" />
+
+    <EditText
+        android:id="@+id/et_group"
+        style="@style/style_insert_fragment"
+        android:hint="Group"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/et_title"
+        style="@style/style_insert_fragment"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/et_user"
+        style="@style/style_insert_fragment"
+        android:hint="User"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="save" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
